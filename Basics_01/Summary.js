@@ -26,4 +26,30 @@ const myFuntion = function(){ //treat func as variable
 
 console.log(myFuntion);
 
+//------------------
+
+//STACK(PRIMITIVES)
+//HEAP(NON-PRIMITIVES)
+
+let penName = "anni"
+
+
+let anotherName = penName
+
+// console.log(anotherName);
+
+// console.log(penName);
+
+let user1 = {
+    email : "xyz@gmail.com",
+    upi : "abc@paytm"
+}
+
+let user2 = user1
+
+user2.email = "abc@gmail.com"
+
+console.log(user1.email);
+console.log(user2.email);
+
 

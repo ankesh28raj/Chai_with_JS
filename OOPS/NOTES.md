@@ -11,3 +11,6 @@
 --- PROTOTYPES
 --- CLASSES
 --- INSTANCES(new, this)
+
+
+#---------> Javascript has a prototypal behaviour
